@@ -9,6 +9,7 @@
   "options": {
     "draftAndPublish": true
   },
+  "pluginOptions": {},
   "attributes": {
     "nom": {
       "type": "string",
@@ -20,19 +21,24 @@
         "maire",
         "adjoint",
         "conseiller",
-        "prefet",
-        "gouverneur"
+        "préfet",
+        "gouverneur",
+        "président",
+        "délégué",
+        "vice-président",
+        "président de quartier",
+        "officiel"
       ]
     },
     "image": {
+      "type": "media",
+      "multiple": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "telephone": {
       "type": "string"
